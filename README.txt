@@ -1,5 +1,3 @@
-Git tutorial for myself
-
 ------GIT-----------
 
 git --version
@@ -66,6 +64,11 @@ git push -u origin main
 git clone https://github.com/LeosPineda/E-COMMERCE_FIRST_PROJECT.git -----clone the repo in github
 code e-commerce ---- open the clone
 
+-----Troubleshooting----------
+ls -a -----If .git appears there, you have a Git repo 
+rm -rf .git -------- If you don’t want this folder to be a Git repo:
+cd E-COMMERCE_FIRST_PROJECT -------- just cd into your actual cloned repo:
+git status
 
 ---------Other Useful Commit Options---------
 Create an empty commit:
